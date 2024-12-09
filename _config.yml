@@ -1,3 +1,38 @@
 theme: jekyll-theme-slate
 title: Silver Ways
 description: Enhancing Walkability for Older Adults
+
+# Navigation items
+navigation:
+  - title: "ABOUT"
+    items:
+      - name: "About Silver Ways"
+        url: "/about"
+      - name: "Principles"
+        url: "/principles"
+      - name: "Key Outcomes"
+        url: "/outcomes"
+      - name: "Consortium"
+        url: "/team"
+  - title: "PROJECT"
+    items:
+      - name: "Our Work"
+        url: "/work"
+      - name: "Living"
+        url: "/living"
+      - name: "Moving"
+        url: "/moving"
+      - name: "Consuming"
+        url: "/consuming"
+  - title: "EVENTS"
+    items:
+      - name: "Conferences"
+        url: "/events"
+      - name: "Forums"
+        url: "/forums"
+  - title: "MEDIA"
+    items:
+      - name: "News"
+        url: "/news"
+      - name: "Videos"
+        url: "/videos"
