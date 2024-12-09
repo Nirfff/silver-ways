@@ -1,78 +1,41 @@
-/* General Reset */
-body, h1, h2, p, ul, li, a {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Dropdown Menu Styles */
+.nav-menu {
+  position: relative;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f9;
-  color: #333;
+.dropdown {
+  position: relative;
 }
 
-/* Header Navigation */
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-header .logo img {
-  height: 50px;
-}
-
-header ul {
-  list-style: none;
-  display: flex;
-}
-
-header ul li {
-  margin-left: 20px;
-}
-
-header ul li a {
+.dropdown .dropbtn {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
-header ul li a:hover {
-  color: #f4f4f9;
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-/* Main Content */
-main {
-  padding: 2rem;
-  text-align: center;
+.dropdown .dropdown-content a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
 }
 
-main h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+.dropdown .dropdown-content a:hover {
+  background-color: #555;
 }
 
-main p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
